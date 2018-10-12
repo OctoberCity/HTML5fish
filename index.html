@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>newworld</title>
+<style type="text/css">
+  *{
+    margin:0px;
+  	padding:0px;
+  }
+ .fishtable_bg{
+    width:800px;
+    height:600px;
+    margin:10px auto;
+ }
+
+
+#allCanvas{
+  position:relative; 
+width: 800px;
+height:600px;
+margin:0;
+}
+
+ #canvas1{
+  position:absolute;
+  bottom: 0;
+  left:0;
+  z-index:1;
+ }
+ #canvas2{
+ position: absolute;
+bottom: 0;
+left:0;
+z-index:0;
+
+ }
+   
+</style>
+</head>
+ <body>
+<div class="fishtable_bg">
+<div id="allCanvas">
+    <canvas id="canvas1" width="800px" height="600px"><!--大。小鱼，泡泡，分数，-->
+ 
+    </canvas>
+    <canvas id="canvas2" width="800px" height="600px"><!--背景，海葵-->
+  
+     </canvas>
+</div>
+</div>
+ </body>
+ <script type="text/javascript" src="js/commonFunctions.js"></script>
+ <script type="text/javascript" src="js/main.js"></script>
+ <script type="text/javascript" src="js/background.js"></script>
+  <script type="text/javascript" src="js/ane.js"></script>
+  <script type="text/javascript" src="js/fruit.js"></script>
+  <script type="text/javascript" src="js/bigfish.js"></script>
+  <script type="text/javascript" src="js/collision.js"></script>
+  <script type="text/javascript" src="js/smfish.js"></script>
+  <script type="text/javascript" src="js/score.js"></script>
+  <script type="text/javascript" src="js/wave.js"></script>
+ </html>
